@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Totality = (function () {
     function Totality(props) {
         var _this = this;
@@ -50,3 +51,4 @@ var Totality = (function () {
     }
     return Totality;
 }());
+exports.Totality = Totality;

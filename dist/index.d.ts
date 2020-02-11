@@ -1,10 +1,10 @@
-interface totalityOptions {
+export interface totalityOptions {
     element: HTMLElement;
     currency: string;
 }
-interface Totality extends totalityOptions {
+export interface Totality extends totalityOptions {
 }
-declare class Totality {
+export declare class Totality {
     total: number;
     subTotals: NodeListOf<HTMLElement>;
     observer: MutationObserver;
