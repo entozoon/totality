@@ -51,4 +51,4 @@ var Totality = (function () {
     }
     return Totality;
 }());
-exports.Totality = Totality;
+exports.default = Totality;

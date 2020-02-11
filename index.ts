@@ -1,9 +1,9 @@
-export interface totalityOptions {
+interface totalityOptions {
   element: HTMLElement;
   currency: string;
 }
-export interface Totality extends totalityOptions {}
-export class Totality {
+interface Totality extends totalityOptions {}
+class Totality {
   // element: HTMLElement;
   total: number;
   subTotals!: NodeListOf<HTMLElement>;
@@ -62,3 +62,4 @@ export class Totality {
     this.element.innerHTML = this.humanMoney(total);
   };
 }
+export default Totality;
