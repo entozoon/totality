@@ -1,0 +1,27 @@
+{
+  "name": "totality",
+  "version": "1.0.0",
+  "description": "Total from subtotals, automatically updating with mutation observer",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entozoon/totality.git"
+  },
+  "keywords": [
+    "total",
+    "subtotal",
+    "calculation"
+  ],
+  "author": "michaelcook.tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entozoon/totality/issues"
+  },
+  "homepage": "https://github.com/entozoon/totality#readme",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  }
+}
