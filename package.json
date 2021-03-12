@@ -4,7 +4,8 @@
   "description": "Total from subtotals, automatically updating with mutation observer",
   "main": "dist/index.js",
   "scripts": {
-    "start": "tsc -w"
+    "start": "tsc -w",
+    "prepublishOnly": "tsc"
   },
   "repository": {
     "type": "git",
