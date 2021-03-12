@@ -1,6 +1,6 @@
 {
   "name": "totality",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Total from subtotals, automatically updating with mutation observer",
   "main": "dist/index.js",
   "scripts": {
